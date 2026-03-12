@@ -1,0 +1,11 @@
+# Read input string
+text = input()
+
+# Build a new string without punctuation
+result = ""
+for char in text:
+    if char.isalnum() or char.isspace():
+        result += char
+
+# Print the result
+print(result)
